@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00d9ffc3;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    text-align: center;
+    background-color: #00aaffc7;
+    border-radius: 7px;
+    padding: 60px 30px;
+    margin-top: 10%;
+}
+.send_btn, input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.send_btn{
+    background-color: #00ffffc0;
+    color: #fff;
+}
+input{
+    padding: 10px 0 10px 5px;
+}
+input:focus{
+    border: none;
+}
